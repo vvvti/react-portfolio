@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './HomePage.css';
 
 
 const HomePage = () => {
@@ -10,7 +11,7 @@ const HomePage = () => {
           </h1>
           <h2 className="sm-heading">Full Stack Web Developer</h2>
           <div className="icons">
-            <a href="/">
+            <a href="/"className="social-icon">
              <svg
                 aria-hidden="true"
                 focusable="false"
@@ -25,7 +26,7 @@ const HomePage = () => {
                 </path>
               </svg>
             </a>
-            <a href="/">
+            <a href="/" className="social-icon">
               <svg 
                 aria-hidden="true"
                 focusable="false"
@@ -41,7 +42,7 @@ const HomePage = () => {
                 </path>
               </svg>
             </a>
-            <a href="/">
+            <a href="/" className="social-icon">
               <svg
                 aria-hidden="true"
                 focusable="false"
