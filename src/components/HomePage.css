@@ -17,3 +17,23 @@ h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
   font-size: 6rem; }
+
+h1.sm-heading,
+h2.sm-heading,
+h3.sm-heading {
+  margin-bottom: 1rem;
+  padding: 0.2rem 1rem; }
+
+a {
+  text-decoration: none; }
+
+main {
+  padding: 4rem;
+  height: 100%; }
+
+main .icons a {
+  padding: 0.4rem; }
+
+main .icons a:hover {
+  color: black;
+  transition: all 1s ease-out; }

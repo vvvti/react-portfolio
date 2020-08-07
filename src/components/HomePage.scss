@@ -2,9 +2,7 @@
 .icons {
     display: flex;
     flex-direction: row;
-    align-content: center;
-    
-    
+    align-content: center;   
 }
 svg {
     
@@ -19,5 +17,27 @@ h3 {
     font-weight: 700;
     &.lg-heading {
         font-size: 6rem;
+    }
+    &.sm-heading {
+        margin-bottom: 1rem;
+        padding: 0.2rem 1rem;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding: 4rem;
+    height: 100%;
+    .icons {
+        a {
+            padding: 0.4rem;
+            &:hover {
+                color: black;
+                transition: all 1s ease-out;
+            }
+        }
     }
 }
