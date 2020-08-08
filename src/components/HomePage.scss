@@ -1,3 +1,4 @@
+@import '../config';
 
 .icons {
     display: flex;
@@ -36,8 +37,14 @@ main {
             padding: 0.4rem;
             &:hover {
                 color: black;
-                transition: all 1s ease-out;
+                @include easeOut();
             }
+        }
+    }
+    &.home {
+        overflow: hidden;
+        h1 {
+            margin-top: 20vh;
         }
     }
 }
