@@ -1,18 +1,10 @@
 import React from 'react'
-import './Header.css'
-const header = () => {
-    return (
-        <header>
-          <div className="menu-btn">
-            <div className="menu-line"></div>
-            <div className="menu-line"></div>
-            <div className="menu-line"></div>            
-          </div>
-          <nav className="menu">
-            <div className="menu-brand">
-                <div className="profile-photo"></div>
 
-            </div>
+import './MenuDrawer.css'
+
+const MenuDrawer = (props) => {
+    return (
+        <div>
             <ul className="menu-nav">
               <li className="nav-item">
                   <a href="/" className="nav link">Home</a>
@@ -30,9 +22,8 @@ const header = () => {
                   <a href="/contact" className="nav link">How to reach me</a>
               </li>
             </ul>
-          </nav>
-        </header>
+        </div>
     )
 }
 
-export default header
+export default MenuDrawer
