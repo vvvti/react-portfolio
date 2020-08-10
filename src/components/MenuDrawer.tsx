@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import './MenuDrawer.css'
 
-const MenuDrawer = (props) => {
+export const MenuDrawer: React.FC = () => {
+    const [showMenu, setShowMenu] = useState<boolean>(false)
     return (
         <div>
             <ul className="menu-nav">

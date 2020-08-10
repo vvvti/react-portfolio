@@ -5,7 +5,7 @@ import HomePage from './components/HomePage';
 
 import './App.css';
 
-function App() {
+export const App: React.FC = () => {
   return (
     <div className="App">
       <Header />

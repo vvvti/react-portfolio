@@ -2,7 +2,7 @@ import React from 'react';
 import './HomePage.css';
 
 
-const HomePage = () => {
+export const HomePage: React.FC = () => {
     return (
         <main className="home">
           <h1 className="lg-heading">
