@@ -5,7 +5,7 @@ import './MenuDrawer.css'
 export const MenuDrawer: React.FC = () => {
     const [showMenu, setShowMenu] = useState<boolean>(false)
     return (
-        <div>
+        <div className="menu">
             <ul className="menu-nav">
               <li className="nav-item">
                   <a href="/" className="nav link">Home</a>
