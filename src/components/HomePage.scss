@@ -35,8 +35,22 @@ main {
     .icons {
         a {
             padding: 0.4rem;
+        }
+        .tweeter-icon {            
             &:hover {
-                color: black;
+                color: #1da1f2;
+                @include easeOut();
+            }
+        }
+        .linkedin-icon {            
+            &:hover {
+                color: #2867b2;
+                @include easeOut();
+            }
+        }
+        .github-icon {            
+            &:hover {
+                color: #211F1F;
                 @include easeOut();
             }
         }

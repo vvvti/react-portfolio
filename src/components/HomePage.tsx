@@ -11,7 +11,7 @@ export const HomePage: React.FC = () => {
           </h1>
           <h2 className="sm-heading">Full Stack Web Developer</h2>
           <div className="icons">
-            <a href="/"className="social-icon">
+            <a href="/"className="tweeter-icon">
              <svg
                 aria-hidden="true"
                 focusable="false"
@@ -26,13 +26,13 @@ export const HomePage: React.FC = () => {
                 </path>
               </svg>
             </a>
-            <a href="/" className="social-icon">
+            <a href="/" className="linkedin-icon">
               <svg 
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="linkedin"
-                className="svg-inline--fa fa-linkedin fa-w-14"
+                className="linkedin-icon"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512">
@@ -42,7 +42,7 @@ export const HomePage: React.FC = () => {
                 </path>
               </svg>
             </a>
-            <a href="/" className="social-icon">
+            <a href="/" className="github-icon">
               <svg
                 aria-hidden="true"
                 focusable="false"

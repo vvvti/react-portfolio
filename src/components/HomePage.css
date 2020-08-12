@@ -34,8 +34,16 @@ main {
 main .icons a {
   padding: 0.4rem; }
 
-main .icons a:hover {
-  color: black;
+main .icons .tweeter-icon:hover {
+  color: #1da1f2;
+  transition: all 0.9s ease-out; }
+
+main .icons .linkedin-icon:hover {
+  color: #2867b2;
+  transition: all 0.9s ease-out; }
+
+main .icons .github-icon:hover {
+  color: #211F1F;
   transition: all 0.9s ease-out; }
 
 main.home {

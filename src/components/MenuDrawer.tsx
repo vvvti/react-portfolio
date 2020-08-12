@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 import './MenuDrawer.css'
 
-export const MenuDrawer: React.FC = () => {
+export const MenuDrawer: React.FC = (props) => {
     const [showMenu, setShowMenu] = useState<boolean>(false)
     return (
         <div className="menu">
