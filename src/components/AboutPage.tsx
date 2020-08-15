@@ -16,9 +16,25 @@ export const AboutPage: React.FC = () => {
                 corporis quo ullam eligendi beatae libero perferendis saepe 
                 temporibus praesentium consectetur placeat modi aspernatur 
                 explicabo?</p>
-                <div className="skills"></div>
-                <div className="skills"></div>
-                <div className="skills"></div>
+                <div className="skills skills-frontend">
+                  <h3>Frontend skills</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Architecto inventore facilis ullam provident laudantium,
+                    quasi totam molestias eveniet asperiores. Quod?</p>
+                </div>
+                <div className="skills skills-backend">
+                  <h3>Backend skills</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Architecto inventore facilis ullam provident laudantium,
+                    quasi totam molestias eveniet asperiores. Quod?</p>
+                </div>
+                <div className="skills skills-other">
+                  <h3>Other skills</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Architecto inventore facilis ullam provident laudantium,
+                    quasi totam molestias eveniet asperiores. Quod?</p>
+                </div>
+                
             </div>
           </div>
         </div>
