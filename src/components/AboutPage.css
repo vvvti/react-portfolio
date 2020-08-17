@@ -22,3 +22,8 @@
 
 .skills-other {
   grid-area: skills-other; }
+
+.skills {
+  background: #515151;
+  padding: 1rem;
+  border-bottom: blue 5px solid; }

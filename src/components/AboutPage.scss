@@ -31,3 +31,10 @@
  .skills-other {
      grid-area: skills-other;
  }
+
+ .skills {
+     background: lighten($primary-color, 5);
+     padding: 1rem;
+     border-bottom: $secondary-color 5px solid;
+
+ }
