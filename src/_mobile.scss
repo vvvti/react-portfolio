@@ -1,0 +1,10 @@
+.about-info {
+    grid-template-areas: 
+    'bioimage'
+    'bio'
+    'skills-frontend'
+    'skills-backend'
+    'skills-other';
+
+    grid-template-columns: 1fr;
+}
