@@ -2,11 +2,8 @@ import React from 'react'
 import './Header.css'
 
 
-export const header: React.FC = () => {
+export const header: React.FC = (props) => {
   
-
-  
-
     return (
         <header>
           <div className="menu-btn">

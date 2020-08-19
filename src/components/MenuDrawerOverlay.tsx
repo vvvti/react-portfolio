@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ProjectsPage: React.FC = () => {
+export const MenuDrawerOverlay: React.FC = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ export const ProjectsPage: React.FC = () => {
     )
 }
 
-export default ProjectsPage;
+export default MenuDrawerOverlay
