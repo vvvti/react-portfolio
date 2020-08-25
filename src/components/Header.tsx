@@ -3,7 +3,7 @@ import './Header.css'
 import MenuDrawerButton from './MenuDrawerButton'
 
 
-export const header: React.FC = (props) => {
+export const header: React.FC = () => {
   
     return (
         <header>

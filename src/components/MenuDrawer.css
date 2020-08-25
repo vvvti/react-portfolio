@@ -1,6 +1,19 @@
-.menu {
+.menu-drawer {
   position: fixed;
   top: 0;
   width: 100%;
   opacity: 0.9;
-  background-color: gray; }
+  background-color: gray;
+  height: 100vh; }
+
+.menu-drawer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.menu-drawer li {
+  margin: 1rem; }
+
+.menu-drawer a {
+  font-size: 1.5rem; }

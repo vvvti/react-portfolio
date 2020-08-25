@@ -7,19 +7,23 @@ import MenuDrawer from './components/MenuDrawer';
 import './App.css';
 
 
-export const App: React.FC = ({children}) => {
+export const App: React.FC = () => {
   const [menuDrawerOpen, setMenuDrawerOpen] = useState(false);
 
   const menuOpenHandler = () => {
-      setMenuDrawerOpen(menuDrawerOpen);
+      setMenuDrawerOpen(!menuDrawerOpen);
   }
+
+  let menuDrawer
+
+  if (menuDrawerOpen) {
+    menuDrawer = <MenuDrawer />
+  }
+
   return (
     <div className="App">
-      <MenuDrawer
-       menuDrawerOpen={menuDrawerOpen}
-       menuOpenHandler={menuOpenHandler}
-        />
-        {children}
+      {menuDrawer}
+      
       <Header />
       <HomePage />
       

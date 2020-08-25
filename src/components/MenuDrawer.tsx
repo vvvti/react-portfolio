@@ -2,15 +2,12 @@ import React from 'react'
 
 import './MenuDrawer.css'
 
-interface Props {
-    menuDrawerOpen: boolean;
-    menuOpenHandler: () => void;
-}
 
-export const MenuDrawer: React.FC<Props> = (menuDrawerOpen, menuOpenHandler) => {
+
+export const MenuDrawer: React.FC = () => {
     
     return (
-        <div className="menu">
+        <div className="menu-drawer">
             <ul className="menu-nav">
               <li className="nav-item">
                   <a href="/" className="nav link">Home</a>
