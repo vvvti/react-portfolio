@@ -3,11 +3,11 @@ import React from 'react'
 import './MenuDrawer.css'
 
 interface Props {
-    isOpen: boolean;
-    menuOpenHandler: () => void;    
+    menuDrawerOpen: boolean;
+    menuOpenHandler: () => void;
 }
 
-export const MenuDrawer: React.FC<Props> = ({isOpen, menuOpenHandler}) => {
+export const MenuDrawer: React.FC<Props> = (menuDrawerOpen, menuOpenHandler) => {
     
     return (
         <div className="menu">
