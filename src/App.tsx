@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
 import MenuDrawer from './components/MenuDrawer';
+import Footer from './components/Footer'
 
 import './App.css';
 
@@ -26,6 +27,7 @@ export const App: React.FC = () => {
       
       <Header />
       <HomePage />
+      <Footer />
       
      <h1>Portfolio</h1>
     </div>
