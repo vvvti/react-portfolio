@@ -3,12 +3,12 @@ import './AboutPage.css'
 
 export const AboutPage: React.FC = () => {
     return (
-        <div>
+        <div className="about-container">
           <h1 className="lg-heading">
             About me
           </h1>
           <h2 className="sm-heading">A few words about me...</h2>
-          <div className="about-info">
+          <div className="about-section">
             <img src="/" alt="Patryk Kontewicz" className="bio-image"/>
             <div className="bio">
               <h3 className="text-secondary">BIO</h3>
@@ -17,6 +17,7 @@ export const AboutPage: React.FC = () => {
                 corporis quo ullam eligendi beatae libero perferendis saepe 
                 temporibus praesentium consectetur placeat modi aspernatur 
                 explicabo?</p>
+                </div>
                 <div className="skills skills-frontend">
                   <h3>Frontend skills</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -36,7 +37,7 @@ export const AboutPage: React.FC = () => {
                     quasi totam molestias eveniet asperiores. Quod?</p>
                 </div>
                 
-            </div>
+            
           </div>
         </div>
     )

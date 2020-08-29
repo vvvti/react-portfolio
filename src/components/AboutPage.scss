@@ -1,13 +1,18 @@
 @import '../config';
 
 
-.about-info {
+.about-container {
+    padding: 5rem;
+}
+
+.about-section {
     display: grid;
     grid-gap: 30px;
     grid-template-areas: 
     'bio bio bioimage'
-    'skills-frontend skills-backend skills-other';
+    'skills1 skills2 skills3';
     grid-template-columns: repeat(3, 1fr);
+    
 }
 
 .bio-image {
@@ -23,13 +28,13 @@
  }
 
  .skills-frontend {
-     grid-area: skills-frontend;
+     grid-area: skills1;
  }
  .skills-backend {
-     grid-area: skills-backend;
+     grid-area: skills2;
  }
  .skills-other {
-     grid-area: skills-other;
+     grid-area: skills3;
  }
 
  .skills {
