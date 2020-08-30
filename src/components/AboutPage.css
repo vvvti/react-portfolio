@@ -1,4 +1,4 @@
-.about-container {
+.about {
   padding: 5rem; }
 
 .about-section {
@@ -11,7 +11,7 @@
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: blue 3px solid; }
+  border: #1F2833 3px solid; }
 
 .bio {
   grid-area: bio;
@@ -27,6 +27,6 @@
   grid-area: skills3; }
 
 .skills {
-  background: #515151;
+  background: #15171f;
   padding: 1rem;
-  border-bottom: blue 5px solid; }
+  border-bottom: #1F2833 5px solid; }

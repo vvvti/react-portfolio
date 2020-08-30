@@ -42,10 +42,11 @@ export const App: React.FC = () => {
       <Route exact path="/AboutPage" component={AboutPage} />
       <Route exact path="/Projects" component={ProjectsPage} />
       <Route exact path="/Contact" component={ContactForm} />
-      <HomePage />   
+      
      </Switch>
+     <Footer />
     </div>    
-    <Footer />
+    
     </Fragment>
     </Router>
   );

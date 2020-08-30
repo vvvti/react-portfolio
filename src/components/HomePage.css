@@ -11,7 +11,13 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #C5C6C7; }
+
+h1 span,
+h2 span,
+h3 span {
+  color: #66FCF1; }
 
 h1.lg-heading,
 h2.lg-heading,
@@ -27,28 +33,37 @@ h3.sm-heading {
 a {
   text-decoration: none; }
 
-main {
+.home {
   padding: 4rem;
-  height: 100%;
-  background-color: #444; }
+  height: 100vh;
+  background-color: #0B0C10; }
 
-main .icons a {
+.home .icons a {
   padding: 0.4rem; }
 
-main .icons .tweeter-icon:hover {
+.home .icons .tweeter-icon {
+  color: #C5C6C7; }
+
+.home .icons .tweeter-icon:hover {
   color: #1da1f2;
   transition: all 0.9s ease-out; }
 
-main .icons .linkedin-icon:hover {
+.home .icons .linkedin-icon {
+  color: #C5C6C7; }
+
+.home .icons .linkedin-icon:hover {
   color: #2867b2;
   transition: all 0.9s ease-out; }
 
-main .icons .github-icon:hover {
+.home .icons .github-icon {
+  color: #C5C6C7; }
+
+.home .icons .github-icon:hover {
   color: #211F1F;
   transition: all 0.9s ease-out; }
 
-main.home {
+.home.home {
   overflow: hidden; }
 
-main.home h1 {
+.home.home h1 {
   margin-top: 20vh; }

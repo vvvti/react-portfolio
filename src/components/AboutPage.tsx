@@ -3,7 +3,7 @@ import './AboutPage.css'
 
 export const AboutPage: React.FC = () => {
     return (
-        <div className="about-container">
+        <section className="about">
           <h1 className="lg-heading">
             About me
           </h1>
@@ -39,7 +39,7 @@ export const AboutPage: React.FC = () => {
                 
             
           </div>
-        </div>
+        </section>
     )
 }
 

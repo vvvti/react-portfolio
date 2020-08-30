@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ProjectsPage: React.FC = () => {
     return (
-        <div className="projects-info">
+        <section className="projects-info">
             <div className="web-apps">
                 <h3>ALLorganizer</h3>
                 <h3>TSLHub</h3>
@@ -17,7 +17,7 @@ export const ProjectsPage: React.FC = () => {
             </div>
 
             
-        </div>
+        </section>
     )
 }
 

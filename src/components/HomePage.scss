@@ -5,10 +5,9 @@
     flex-direction: row;
     align-content: center;   
 }
-svg {
-    
+svg {    
     height: 5rem;
-    width: 5rem;
+    width: 5rem;       
 }
 
 h1,
@@ -16,40 +15,50 @@ h2,
 h3 {
     margin: 0;
     font-weight: 700;
+    color: $light-gray;
+    span {
+        color: $light-cyan;
+    }
     &.lg-heading {
-        font-size: 6rem;
+        font-size: 6rem;        
     }
     &.sm-heading {
         margin-bottom: 1rem;
         padding: 0.2rem 1rem;
     }
+    
 }
 
 a {
     text-decoration: none;
 }
 
-main {
+.home {
     padding: 4rem;
-    height: 100%;
+    height: 100vh;
     background-color: $primary-color;
+
     .icons {
+    
         a {
-            padding: 0.4rem;
+            padding: 0.4rem;            
         }
-        .tweeter-icon {            
+        .tweeter-icon {   
+            color: $light-gray;         
             &:hover {
                 color: #1da1f2;
                 @include easeOut();
             }
         }
-        .linkedin-icon {            
+        .linkedin-icon {        
+            color: $light-gray;         
             &:hover {
                 color: #2867b2;
                 @include easeOut();
             }
         }
-        .github-icon {            
+        .github-icon {
+            color: $light-gray;         
             &:hover {
                 color: #211F1F;
                 @include easeOut();

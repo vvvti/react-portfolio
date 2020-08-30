@@ -4,7 +4,7 @@ import './HomePage.css';
 
 export const HomePage: React.FC = () => {
     return (
-        <main className="home">
+        <section className="home">
           <h1 className="lg-heading">
             Patryk
             <span className="text-secondary"> Kontewicz</span>
@@ -59,7 +59,7 @@ export const HomePage: React.FC = () => {
             </a>
           </div>
             
-        </main>
+        </section>
     )
 }
 
