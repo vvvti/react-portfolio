@@ -4,10 +4,11 @@ $light-gray: #C5C6C7;
 $light-cyan: #66FCF1;
 $dark-cyan: #45A29E;
 
-
+$font-primary: brandon-grotesque, sans-serif;
+$font-secondary: 'Noto Sans JP', sans-serif;
 
 @mixin easeOut {
-    transition: all 0.9s ease-out;
+    transition: all 250ms ease-in-out;
 }
 
 @font-face{

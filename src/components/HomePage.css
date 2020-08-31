@@ -34,39 +34,42 @@ h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 1rem;
-  padding: 0.2rem 1rem; }
+  padding: 0.2rem 0.4rem; }
 
 a {
   text-decoration: none; }
 
 .home {
-  padding: 4rem;
+  padding: 4rem 4rem 4rem 7rem;
   height: 100vh;
-  background-color: #0B0C10; }
-
-.home .icons a {
-  padding: 0.4rem; }
+  background: #0B0C10;
+  background: url(../assets/images/home.jpg), radial-gradient(circle, #45a29e 0%, #0b0c10 90%);
+  background-size: cover;
+  background-blend-mode: multiply; }
 
 .home .icons .tweeter-icon {
   color: #C5C6C7; }
 
 .home .icons .tweeter-icon:hover {
   color: #1da1f2;
-  transition: all 0.9s ease-out; }
+  transition: all 250ms ease-in-out;
+  transform: scale(1.1); }
 
 .home .icons .linkedin-icon {
   color: #C5C6C7; }
 
 .home .icons .linkedin-icon:hover {
   color: #2867b2;
-  transition: all 0.9s ease-out; }
+  transition: all 250ms ease-in-out;
+  transform: scale(1.1); }
 
 .home .icons .github-icon {
   color: #C5C6C7; }
 
 .home .icons .github-icon:hover {
   color: #211F1F;
-  transition: all 0.9s ease-out; }
+  transition: all 250ms ease-in-out;
+  transform: scale(1.1); }
 
 .home.home {
   overflow: hidden; }
