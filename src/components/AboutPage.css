@@ -5,7 +5,11 @@
   font-style: normal; }
 
 .about {
-  padding: 5rem; }
+  padding: 5rem;
+  background: #0B0C10;
+  background: url(../assets/images/about2.webp), radial-gradient(circle, #45a29e 0%, #0b0c10 90%);
+  background-size: cover;
+  background-blend-mode: multiply; }
 
 .about-section {
   display: grid;

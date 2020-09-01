@@ -10,8 +10,8 @@
   align-content: center; }
 
 svg {
-  height: 5rem;
-  width: 5rem; }
+  height: 6rem;
+  width: 6rem; }
 
 h1,
 h2,
@@ -52,6 +52,8 @@ a {
 
 .home .icons .tweeter-icon:hover {
   color: #1da1f2;
+  background: white;
+  display: inline-block;
   transition: all 250ms ease-in-out;
   transform: scale(1.1); }
 

@@ -3,6 +3,11 @@
 
 .about {
     padding: 5rem;
+    background: $primary-color;
+    background: url(../assets/images/about2.webp),
+    radial-gradient(circle, rgba(69,162,158,1) 0%, rgba(11,12,16,1) 90%);
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 .about-section {

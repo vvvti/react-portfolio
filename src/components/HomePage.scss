@@ -6,8 +6,9 @@
     align-content: center;   
 }
 svg {    
-    height: 5rem;
-    width: 5rem;       
+    height: 6rem;
+    width: 6rem;
+      
 }
 
 h1,
@@ -45,9 +46,13 @@ a {
 
     .icons {
         .tweeter-icon {   
-            color: $light-gray;         
+            color: $light-gray;
+                    
             &:hover {                
                 color: #1da1f2;
+                
+                background: white;
+                display: inline-block;
                 @include easeOut();
                 transform: scale(1.1);
             }
