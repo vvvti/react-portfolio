@@ -5,7 +5,7 @@
   font-style: normal; }
 
 .about {
-  padding: 5rem;
+  padding: 4rem 4rem 4rem 7rem;
   background: #0B0C10;
   background: url(../assets/images/about2.webp), radial-gradient(circle, #45a29e 0%, #0b0c10 90%);
   background-size: cover;
@@ -40,3 +40,9 @@
   background: #15171f;
   padding: 1rem;
   border-bottom: #1F2833 5px solid; }
+
+p {
+  color: #C5C6C7; }
+
+.lg-headingspan {
+  color: #66FCF1; }

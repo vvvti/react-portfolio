@@ -52,7 +52,6 @@ a {
 
 .home .icons .tweeter-icon:hover {
   color: #1da1f2;
-  background: white;
   display: inline-block;
   transition: all 250ms ease-in-out;
   transform: scale(1.1); }

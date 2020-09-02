@@ -5,7 +5,7 @@ export const AboutPage: React.FC = () => {
     return (
         <section className="about">
           <h1 className="lg-heading">
-            About me
+            <span>About</span> me
           </h1>
           <h2 className="sm-heading">A few words about me...</h2>
           <div className="about-section">
