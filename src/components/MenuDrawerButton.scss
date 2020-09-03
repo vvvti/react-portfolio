@@ -1,3 +1,5 @@
+@import '../config';
+
 .drawer-button {
     display: flex;
     flex-direction: column;
@@ -21,5 +23,5 @@
 .drawer-button__line {
   width: 100%;
   height: 3px;
-  background-color: #444;
+  background-color: $light-cyan;
 }

@@ -1,6 +1,10 @@
 import React from 'react'
 import './MenuDrawerButton.css'
 
+interface Props {
+    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  }
+
 export const MenuDrawerButton: React.FC = () => {
     return (
         <button className="drawer-button">
