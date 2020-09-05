@@ -1,13 +1,14 @@
 import React from 'react'
 import './MenuDrawerButton.css'
 
-interface Props {
-    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
-  }
+interface Props  {
+    open: boolean;
+    setOpen: (v: boolean) => void;
+  };
 
-export const MenuDrawerButton: React.FC = () => {
+ const MenuDrawerButton: React.FC = (props: Props) => {
     return (
-        <button className="drawer-button">
+        <button className="drawer-button" open={props.open} onClick={() => props.setOpen(!props.open)}>
             <div className="drawer-button__line"></div>
             <div className="drawer-button__line"></div>
             <div className="drawer-button__line"></div>            

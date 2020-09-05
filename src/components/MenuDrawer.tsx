@@ -10,6 +10,7 @@ const Menu = () => {
     const close = () => setOpen(false);
   
     useOnClickOutside(node, () => setOpen(false));
+}
 
 
 export const MenuDrawer: React.FC = () => {
@@ -37,4 +38,4 @@ export const MenuDrawer: React.FC = () => {
     )
 }
 
-export default MenuDrawer
+export default MenuDrawer;
