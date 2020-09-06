@@ -3,20 +3,15 @@ import React, {useState, useRef} from 'react'
 import './MenuDrawer.css'
 
 import { useOnClickOutside } from "../Hooks/Hooks";
+import MenuDrawerButton from './MenuDrawerButton'
 
-const Menu = () => {
-    const [open, setOpen] = useState<boolean>(false);
-    const node = useRef<HTMLDivElement>(null);
-    const close = () => setOpen(false);
-  
-    useOnClickOutside(node, () => setOpen(false));
-}
-
-
-export const MenuDrawer: React.FC = () => {
+const MenuDrawer: React.FC = () => {
     
+
+
+  
     return (
-        <div className="menu-drawer">
+        <div className="menu-drawer" >
             <ul className="menu-nav">
               <li className="nav-item">
                   <a href="/" className="nav link">Home</a>
