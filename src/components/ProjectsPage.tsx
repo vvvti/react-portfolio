@@ -3,6 +3,7 @@ import React from 'react'
 export const ProjectsPage: React.FC = () => {
     return (
         <section className="projects-info">
+            <div className="projects">
             <div className="web-apps">
                 <h3>ALLorganizer</h3>
                 <h3>TSLHub</h3>
@@ -14,6 +15,7 @@ export const ProjectsPage: React.FC = () => {
             </div>
             <div className="other-projects">
                 <h3>RPi & XBee </h3>
+            </div>
             </div>
 
             
