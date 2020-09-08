@@ -4,6 +4,9 @@
   font-weight: normal;
   font-style: normal; }
 
-.projects {
+.projects-info {
+  padding: 4rem 4rem 4rem 7rem;
   height: 100vh;
-  background-color: #0B0C10; }
+  background-color: #0B0C10;
+  background-size: cover;
+  background-blend-mode: multiply; }

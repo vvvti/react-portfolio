@@ -1,6 +1,9 @@
 @import '../config';
 
-.projects {
+.projects-info {
+    padding: 4rem 4rem 4rem 7rem;
     height: 100vh;
     background-color: $primary-color;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
