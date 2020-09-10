@@ -4,12 +4,10 @@
   font-weight: normal;
   font-style: normal; }
 
-.projects-info {
+.contact-page {
   padding: 4rem 4rem 4rem 7rem;
   height: 100vh;
-  background-color: #0B0C10;
+  background: #0B0C10;
+  background: url(../assets/images/contact.webp), radial-gradient(circle, #45a29e 0%, #0b0c10 90%);
   background-size: cover;
   background-blend-mode: multiply; }
-
-.lg-heading {
-  margin-top: 8vh; }
