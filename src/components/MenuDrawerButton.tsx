@@ -4,7 +4,7 @@ import './MenuDrawerButton.css'
   
 
  const MenuDrawerButton: React.FC = () => {
-     const [status, setStatus] =useState('closed');
+     const [status, setStatus] = useState('closed');
     return (
         <button className="drawer-button" onClick={() => setStatus(status === 'opened' ? 'closed' : 'opened')}>
             <svg width="100" height="100" viewBox="0 0 100 100">

@@ -18,16 +18,11 @@ import ContactForm from './components/ContactForm';
 
 
 
-export const App: React.FC = () => {
-  const [menuDrawerOpen, setMenuDrawerOpen] = useState<boolean>(false);
-
-  const menuOpenHandler = () => {
-      setMenuDrawerOpen(!menuDrawerOpen);
-  }
-
+export const App: React.FC = (props) => {
+  
   let menuDrawer
 
-  if (menuDrawerOpen) {
+  if (props.) {
     menuDrawer = <MenuDrawer />
   }
 
