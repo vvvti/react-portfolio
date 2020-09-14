@@ -18,19 +18,13 @@ import ContactForm from './components/ContactForm';
 
 
 
-export const App: React.FC = (props) => {
+export const App: React.FC = () => {
   
-  let menuDrawer
-
-  if (props.) {
-    menuDrawer = <MenuDrawer />
-  }
-
+  
   return (
     <Router>
     <Fragment>
     <div className="App">
-      {menuDrawer}      
       <Header />
       <Switch>
       <Route exact path="/" component={HomePage} />
