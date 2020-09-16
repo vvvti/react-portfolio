@@ -16,18 +16,36 @@ export const ProjectsPage: React.FC = () => {
                    with ALL – acute lymphoblastic leukemia. Using following
                    tools: Python, Django, DRF, Html, CSS, JavaScript, PostgreSQL,
                    REST API, Celery, Selenium, Material Design</p>
+                   <div>
+                  <h4>Live</h4>
+                  </div>
+                <div>
+                  <h4>github</h4>
+                  </div>
                    </div>
                    <div className="project-container">
                 <h3>TSLHub</h3>
                 <p>Developing web application for supporting transport companies
                    in fleet management. Used tools: Django, REST API,
                   Html, CSS, Java Script, React, Redux, Webpack</p>
+                  <div>
+                  <h4>Live</h4>
                   </div>
+                <div>
+                  <h4>github</h4>
+                  </div>
+                                     </div>
                   <div className="project-container"> 
                 <h3>XKCDbrowser</h3>
                 <p>Application for mobile devices written in React native, it allows browsing
                    comics from XKCD site. Used tools: React Native, REAST API, axios
                 </p>
+                <div>
+                  <h4>Live</h4>
+                  </div>
+                <div>
+                  <h4>github</h4>
+                  </div>
                 </div>
               </div>
             <div className="landing-pages">
@@ -37,8 +55,14 @@ export const ProjectsPage: React.FC = () => {
               <div className="other-projects">
                 <h3>RPi & XBee </h3>
                 <p>This project is distributed system for wireless temperature
-                   and humidity monitoring using PaspberryPi and XBee modules.</p>
-                </div>
+                and humidity monitoring using PaspberryPi and XBee modules.</p>
+                <div>
+                  <h4>Live</h4>
+                  </div>
+                <div>
+                  <h4>github</h4>
+                  </div>
+              </div>
          </section>
     )
 }
