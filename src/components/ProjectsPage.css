@@ -12,8 +12,32 @@
   background-size: cover;
   background-blend-mode: multiply; }
 
+.projects-section {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'project1 project2 project3' 'project4 project5 project6';
+  grid-template-columns: repeat(3, 1fr); }
+
 .lg-heading {
   margin-top: 8vh; }
 
 h3 {
   color: #66FCF1; }
+
+.project-container {
+  margin: auto; }
+
+.project1 {
+  grid-area: project1; }
+
+.project2 {
+  grid-area: project2; }
+
+.project3 {
+  grid-area: project3; }
+
+.project4 {
+  grid-area: project4; }
+
+.project5 {
+  grid-area: project5; }
